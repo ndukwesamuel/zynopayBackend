@@ -1,7 +1,7 @@
 const otpGenerator = require("otp-generator");
 
 const generateOTP = () => {
-  const otp = otpGenerator.generate(6, {
+  const otp = otpGenerator.generate(4, {
     upperCaseAlphabets: false,
     lowerCaseAlphabets: false,
     specialChars: false,
